@@ -8,4 +8,4 @@ However, the WinUI3 Preview 4 Desktop sample solution breaks on the multiple fil
 
 This issue has persisted from Preview 2 and 3.
 
-For more details about the WinUI 3 Preview 4 issue, go to the issue [here](https://github.com/microsoft/microsoft-ui-xaml/issues/).
+For more details about the WinUI 3 Preview 4 issue, go to the issue [here](https://github.com/microsoft/microsoft-ui-xaml/issues/4198).
