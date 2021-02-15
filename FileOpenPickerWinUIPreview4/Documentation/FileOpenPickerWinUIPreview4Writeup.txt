@@ -1,0 +1,61 @@
+**Describe the bug**
+
+The FileOpenPicker in WinUI3 Preview4 Desktop sample solution breaks and closes the application when trying to open multiple items.
+
+**Steps to reproduce the bug**
+
+1. Clone the [WinUI3 Preview4 Problems FilePicker repository](https://github.com/eleanorleffler/WinUI3Preview4_Problems_FileOpenPicker). 
+2. Go to the FilePickerWinUIPreview4 folder.
+3. Open the FilePickerWinUIPreview4 solution in Visual Studio 2019 Preview.
+4. Build and run with Debug x64.
+5. Click the second / bottom button "FileOpenPicker: Multiple Files". (The first button should work as expected.)
+6. Select one or more files.
+7. Click "Open". Crash should occur.
+
+**Expected behavior**
+
+We expect the application to display the path of the selected file(s) or folder.
+
+We expect the FileOpenPicker to allow the user to select multiple files as it does in UWP.
+
+**Screenshots**
+
+Screenshot#1a and 1b - Current Behavior (Single File working and Crash Error Message)
+
+Screenshot#2 - Expected Behavior (File paths of selected files)
+
+**Version Info**
+
+NuGet package version: 
+
+[Microsoft.WinUI 3.0.0-preview4.210210.4]
+
+Targeting:
+Target: Universal Windows
+Target version: Windows 10, version 1809 (10.0; Build 17763)
+Min version: Windows 10, version 1803 (10.0; Build 17134)
+
+Windows app type:
+| UWP              | Win32            |
+| :--------------- | :--------------- |
+| 		Yes 	   |  				  |
+
+| Windows 10 version                  | Saw the problem? |
+| :--------------------------------- | :-------------------- |
+| Insider Build (xxxxx)              | 						 |
+| May 2020 Update (19041)            | 						 |
+| November 2019 Update (18363)       | 						 |
+| May 2019 Update (18362)            | 						 |
+| October 2018 Update (17763)        | 			Yes			 |
+| April 2018 Update (17134)          | 						 |
+| Fall Creators Update (16299)       | 						 |
+| Creators Update (15063)            | 						 |
+
+| Device form factor | Saw the problem? |
+| :----------------- | :--------------- |
+| Desktop            | 		Yes			|
+| Xbox               | 					|
+| Surface Hub        | 					|
+| IoT                | 					|
+
+**Additional context**
