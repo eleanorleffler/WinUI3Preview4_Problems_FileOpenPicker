@@ -1,4 +1,4 @@
-# WinUI3Preview3_Problems_FileOpenPicker
+# WinUI3Preview4_Problems_FileOpenPicker
 
 This repository contains two solutions with sample code demonstrating the FileOpenPicker in both UWP and WinUI3 Preview4.
 
